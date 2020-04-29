@@ -18,7 +18,7 @@ body{
   margin: 0 auto;
 }
 
-header {
+!header {
   font-family: "Times New Roman", serif;
   font-size: 1em;
   font-weight: normal;
@@ -27,18 +27,56 @@ header {
   margin-bottom: 0;
 }
 
+h1{
+  font-family: Didot, serif;
+  font-size: 4em;
+  color: #9A2A12
+}
+
+h2{
+  font-family: Didot, serif;
+  font-size: 1.75em;
+  color: #9A2A12
+}
+
+h3{
+  font-family: Roboto Slab, serif;
+  font-size: 1.25em;
+  color: #498A08
+}
+
+h4{
+  font-family: Didot, serif;
+  font-size: 1.75em;
+  color: #9A2A12
+}
+
+h5{
+  font-family: Roboto Slab, serif;
+  font-size: 1.25em;
+  color: #498A08
+}
+
+h6{
+  font-family: Didot, serif;
+  font-size: 1.75em;
+  color: #9A2A12
+}
+
+
+
 /* links */
 a {
-  color:#0000ff;
+  color:#498A08;
 }
 a:hover {
-  color: #ff0000;
+  color: #CAC548;
 }
 a:focus,
 a:active{
-  color:#00ff00;
-  background-color: #f5f2ad;
+  color:#9A2A12;
 }
+
 
 /* typographic details */
   p {
@@ -67,9 +105,9 @@ a:active{
   }
 
   .headshot {
-  width: 3em;
+  width: 4em;
   border-radius: 50%;
-  vertical-align: middle;
+  vertical-align: auto;
   margin-right: 1em;
 }
 
