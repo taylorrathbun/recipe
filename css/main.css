@@ -97,11 +97,11 @@ a:active{
 
   /* hero figure image */
   figure.hero {
-    margin:0 -1em;
+    margin:1em -1em;
   }
 
   figure.hero figcaption {
-    margin: 0 1em;
+    margin: 0em .5em;
   }
 
   .headshot {
@@ -130,6 +130,10 @@ ul {
 
 dd {
   margin-left: 0;
+}
+
+dl{
+  color: #9A2A12;
 }
 
 ol,
