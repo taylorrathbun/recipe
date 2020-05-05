@@ -18,49 +18,50 @@ body{
   margin: 0 auto;
 }
 
-!header {
-  font-family: "Times New Roman", serif;
-  font-size: 1em;
-  font-weight: normal;
-  word-spacing: -.075;
-  margin-top:0;
-  margin-bottom: 0;
-}
+
 
 h1{
   font-family: Didot, serif;
+  margin-top: .25em;
+  margin-bottom: .05em;
   font-size: 4em;
-  color: #9A2A12
+  color: #9A2A12;
 }
 
 h2{
   font-family: Didot, serif;
+  margin-top: .75em;
+  margin-bottom: .55em;
   font-size: 1.75em;
-  color: #9A2A12
+  color: #9A2A12;
 }
 
 h3{
   font-family: Roboto Slab, serif;
   font-size: 1.25em;
-  color: #498A08
+  color: #498A08;
 }
 
 h4{
   font-family: Didot, serif;
+  margin-top: 1em;
+  margin-bottom: .55em;
   font-size: 1.75em;
-  color: #9A2A12
+  color: #9A2A12;
 }
 
 h5{
   font-family: Roboto Slab, serif;
   font-size: 1.25em;
-  color: #498A08
+  color: #498A08;
 }
 
 h6{
   font-family: Didot, serif;
+  margin-top: 1em;
+  margin-bottom: .75em;
   font-size: 1.75em;
-  color: #9A2A12
+  color: #9A2A12;
 }
 
 
@@ -105,7 +106,8 @@ a:active{
   }
 
   .headshot {
-  width: 4em;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
   vertical-align: auto;
   margin-right: 1em;
@@ -132,7 +134,7 @@ dd {
   margin-left: 0;
 }
 
-dl{
+dl {
   color: #9A2A12;
 }
 
@@ -141,6 +143,14 @@ ul {
   padding-left: 1.4em;
 }
 
+li {
+  margin-top: .5em;
+}
+
+dl {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
 
 /* navigation / menu */
 
@@ -155,13 +165,12 @@ nav ul {
   padding-left:0;
 }
 
-nav li {
-  margin-top: .65rem;
-}
 
-nav li {
+nav li, p {
+  margin-top: 1em;
   list-style: none;
   padding-left: 1em;
+  line-height: 1.25;
 }
 
 
@@ -179,7 +188,7 @@ nav li:first-child {
 }
 
 mark{
-  background-color: #cfc
+  background-color: #cfc;
 }
 
 /* recipe lists*/
@@ -215,18 +224,3 @@ mark{
   body {
     font-size: 125%;
   }
-
-  !#ingredients {
-    display: inline-block;
-    width: 28%;
-    vertical-align: top;
-    margin-right: 3%;
-  }
-
-  !#step-1 {
-    display: inline-block;
-    width: 68%;
-    vertical-align: top;
-  }
-
-}
