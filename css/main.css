@@ -120,8 +120,6 @@ section {
 }
 
 
-
-
 /* lists */
 dl,
 ol,
@@ -193,11 +191,11 @@ mark{
 
 /* recipe lists*/
 
-.info dt,{
+.info dt{
   margin-top: 1rem;
 }
 
-.info dd, {
+.info dd {
   margin-top: .5rem;
 }
 
