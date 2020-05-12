@@ -1,119 +1,118 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- Offline/Local Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS (& Bootstrap Overrides) -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="canonical" href="placeholder">
-  <title>Sweet Apple Pie</title>
+  <title>Single-serving</title>
   <meta name="author" content="Taylor Rathbun">
+  <meta name="Kylie Cosmetics" content="https://en.wikipedia.org/wiki/Kylie_Cosmetics">
 </head>
 <body>
 
-<header>
-  <h1 class="recipe-title">Sweet Apple Pie</h1>
-  <p class="author">By Taylor Rathbun</p>
+<!--
+- Responsive Images
+https://getbootstrap.com/docs/4.4/content/images/
+-->
 
-<figure class="hero">
-  <img alt="This is a picture on the finished apple pie. There is a slice in the front missing, and you can see the apples showing. The apple pie is sitting on top of a striped place setting, and there is a wood pie slicer sitting next to it." src="img/apple_pie.jpg" srcset="img/apple_pie.jpg" width="3" height="2" decoding="async">
-  <figcaption class="credit"><small>Photo by Taylor Rathbun</small></figcaption>
-</figure>
 
-  <dl>
-    <dt><b>Prep Time:</b></dt>
-    <dd><time datetime="40m">40 minutes</time></dd>
-    <dt><b>Cook Time:</b></dt>
-    <dd><time datetime="45m">40-45 minutes</time></dd>
-    <dt><b>Serves:</b></dt>
-    <dd>8 servings</dd>
-  </dl>
-</header>
+
+<!--
+- Layout Overview
+https://getbootstrap.com/docs/4.4/layout/overview/
+- Spacing
+https://getbootstrap.com/docs/4.4/utilities/spacing/
+-->
+
+
+  <h2 class="mb-3" id="top">Kylie Cosmetics</h2>
+  <div class="container-md">
+    <div class="row">
+      <figure class="hero">
+        <img alt="A headshot of Kylie Jenner. She is wearing a light pink turtleneck shirt with a snakeskin blazer over. Kylie is staring directly at the camera, with her long black hair over one shoulder." src="img/kyliejenner.jpg" srcset="img/kyliejenner.jpg" width="6" height="6"
+        decoding="async">
+        <figcaption class="credit"><small><strong>Photo by Jamerl Toppin for Forbes</strong></small></figcaption>
+      </figure>
+    </div>
+  </div>
+
 
 <nav id="menu">
   <ul>
-    <li><a href="#ingredients">What to Buy</a>
-    <li><a href="#preparation">How to Make</a>
-  </ul>
-</nav>
+    <li><strong><a href="#introduction">Background</a></strong></li>
+    <li><strong><a href="#packaging">Product packaging</a></strong></li>
+    <li><strong><a href="#marketing">Marketing</a></strong></li>
+    <li><strong><a href="#collabs">Collaborations and collections</a></strong></li>
+    </ul>
+  </nav>
 
+<section id="introduction">
+  <h3 class= "background"><strong>Background</strong></h3>
+    <div class="introduction">
+      <p><strong>Kylie Cosmetics is an American cosmetics company founded by media personality and famous Kardashian sister, <a href="https://en.wikipedia.org/wiki/Kylie_Jenner" target="_blank" rel="external-noopener">Kylie Jenner.</a></strong></p>
+      <p>Kylie Cosmetics began selling Kylie Lip Kits, on November 30, 2015. This was a liquid lipstick and lip liner set. Formerly known as Kylie Lip Kits, the company was renamed Kylie Cosmetics in 2016 </p>
+      <p> In 2018, <a href="https://en.wikipedia.org/wiki/Forbes" target="_blank" rel="external-noopener"> Forbes </a> reported Kylie Cosmetics was valued at $800 million, and in March 2019, they valued the company at $900 million.On November 18, 2019, Coty, Inc. bought a 51% controlling stake in the company for $600 million.</p>
+      <p>In 2014, Kylie Jenner founded the company and partnered with Seed Beauty. The companies first product Kylie X Kris Lip Kits, a liquid lipstick and lip liner, debuted on November 30, 2015.The first 15,000 lip kits were produced by Seed Beauty and funded by Jenner at a cost of $250,000. Jenner used her modelling earnings to pay for this. The company was renamed to Kylie X Kris Cosmetics in February 2016 and production was increased to 500,000 kits. By the end of 2016, the company's total revenue was $300 million.</p>
+      <p> Jenner has described her decision to use her former insecurity about her lip size as inspiration for her brand, saying it is one of the most authentic things she has done in her career.</p>
+      <p> On November 18, 2019, <a href="https://en.wikipedia.org/wiki/Coty,_Inc." target="_blank" rel="external-noopener">Coty Inc.</a>, bought 51% controlling stake in the company, for $600 million.</p>
+      <p> On April 8, 2020, Jenner is still the world's youngest "self made" billionaire. Her net worth increased to 1.2 billion dollars.</p>
+    </div>
+  </section>
 
-
-<section id="ingredients">
-   <h2>Ingredients:</h2>
-      <p>All of these ingredients can be found at your local grocery store. However, going to an apple orchard and picking your own apples, gives you quality time with your loved ones, and a fun day.</p>
-   <h3> Crust</h3>
-     <ul>
-       <li>2 ½ cups of all-purpose flour</li>
-       <li>1 cup (2 sticks or 8 ounces) of unsalted butter (cold, cut into 1/2 inch cubes)</li>
-       <li>1 teaspoon of salt</li>
-       <li>1 teaspoon of sugar</li>
-       <li>6-8 tablespoon of ice water</li>
-     </ul>
-     <h3> Filling</h3>
-   <ul>
-     <li>8 cups of thinly sliced, peeled apples (variety, medium-sized)</li>
-     <li>½ cup of sugar</li>
-     <li>2 tablespoons of all-purpose flour</li>
-     <li>¾ teaspoon ground cinnamon</li>
-     <li>¼ teaspoon of salt</li>
-     <li>⅛ teaspoon of ground nutmeg </li>
-     <li>1 tablespoon of lemon juice (optional)</li>
-   </ul>
-
- </section>
-
-
- <section id="preparation">
-   <h4>Preparation:</h4>
-      <p>It is best to prepare the crust before the filling. If you do not have time to make the crust, or simply do not want to make it, you can substitute the crust by using the Pillisbury brand crust.</p>
-
-   <h5>Crust</h5>
-   <ol>
-     <li>Mix flour, sugar, and salt into a medium sized bowl. Mix until well blended together.</li>
-     <li>Add butter, half at a time, mixing well as you add after each. Mix until the large pieces are the size of large peas. </li>
-     <li>Slowly add the cold water. Sprinkle the mixture with about 1/4 cup of cold water and mix. Then add more cold water, a tablespoon at a time, mixing after each addition until the dough just barely begins to hold together.(You know that the mixture is ready if when you pinch some of the crumbly dough together with your fingers, it sticks together. Be careful with the amount of water you add, too much and the crust will be tough.)</li>
-     <li>Make two dough disks. Empty the crumbly dough mixture from the food processor on to a clean, dry, surface. Gather the mixture in a mound.</li>
-     <li>Divide the dough mixture into two even-sized mounds. Using your hands, knead each mound to form a disk shape. Do not over-knead! (Kneading develops gluten which will toughen the dough, and is not something you want in a pastry crust.) You should only knead enough so that the dough holds together without cracks.</li>
-     <li>Sprinkle each disk with a little flour and wrap each one in plastic wrap. Refrigerate for one hour or up to 2 days.</li>
-     <li>Remove dough from refriferator and let sit at room temperature for 5-10 minutes in order to soften just enough to make rolling out a bit easier.</li>
-     <li>Roll out dough with a rolling pin on a lightly floured surface to a 12-inch circle; about 1/8 of an inch thick. As you roll out the dough, check if the dough is sticking to the surface below. If necessary, add a few sprinkles of flour under the dough to keep the dough from sticking.</li>
-     <li>Carefully place the dough onto a 9-inch pie plate. Gently press the dough down so that it lines the bottom and sides of the pie plate.</li>
-     <li>Add filling to the pie.</li>
-   </ol>
-
-   <h5>Filling</h5>
- <ol>
-     <li>Heat oven to 425℉.</li>
-     <li>In large bowl, add the peeled and sliced apples.</li>
-     <li>Gently mix the filling ingredients into the bowl filled with apples.</li>
-     <li>Spoon the ingredients from the bowl into the crust-lined pie plate.</li>
-     <li>Top with the second crust, wrapping excess top crust under the bottom crust edge, pressing edges together to seal.</li>
-     <li>Cut slits or shapes in several places in top crust.</li>
-     <li>Add some butter on top of the pie crust</li>
-     <li>Bake for 40 to 45 minutes, or until apples are tender and crust is golden brown.</li>
-     <li> Let cool on cooling rack at least 2 hours before serving.</li>
-   </ol>
- </section>
-
-
-
-
-<section id="author">
-  <h6>About the author</h6>
-  <img class="headshot" alt="Headshot of the author, me. I am wearing my college cap and gown. They are both black. The background is the Emmanuel College Quad." src="img/authorheadshot.jpg" srcset="img/authorheadshot.jpg" width="28" height="25" decoding="async">
-
-  <p>My name is Taylor Rathbun and I am a senior at Emmanuel College in Boston, MA. Along with baking, I enjoy playing sports, taking pictures and hiking in my free time. I am also an avid animal lover and love spending time with my chocolate lab Bailey and puppy nephew, a newfoundland hound, Memphis.</p>
-  <p>I have been making this apple pie recipe since I was 12 years old. I started making this recipe with my dad for holidays and fmaily events, and now it has become a tradition. Everytime I make this apple pie, I am always told how good it is and what recipe I use. This recipe may seem like any ordinary apple pie recipe, however there is a slight change. Can you figure it out? </p>
-
- <p> I hope you enjoy this recipe, and share this delicious apple pie with your loved ones.</p>
+<section id="packaging">
+  <h4 class="packaging"><strong>Packaging</strong></h4>
+    <figure class="kylie-box">
+      <img alt="A picture of the Kylie Cosmetics product packaging. This picture is a black box with the kylie lipstick displayed on the front in white. It also has the word 'KYLIE'written in white, and white water looking drops coming down from the top of the box." src="img/packaging.jpg" srcset="img/packaging.jpg" width="6" height="4"
+      decoding="async">
+      <figcaption class="container-mt-2"></figcaption>
+    </figure>
+  <div class="packaging">
+      <p> In May 2016, Kylie Cosmetics changed the packaging of its Lip Kits due to complaints of theft. Due to the easily recognizable packaging and high demand for the product, some customers received empty boxes after having their products stolen during the mailing process. </p>
+      <p>The original Kylie Lip Kit box was black with a white lip gloss drip design. In order to solve the theft issue, the boxes were changed to a basic black, and the recognizable lip gloss design was moved to the inside of the box.</p>
+    </div>
 </section>
 
+<section id="marketing">
+    <h5 class="marketing"><strong>Marketing</strong></h5>
+      <div class="marketing">
+        <p>Kylie Cosmetics heavily depends on social media for its marketing. As of August 2018, Jenner has the most followed <a href="https://en.wikipedia.org/wiki/Snapchat" target="_blank" rel="external-noopener">Snapchat</a> account and 164 million <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" rel="external-noopener">Instagram</a> followers, all who see her teases to past and future makeup releases. </p>
+        <p>Kylie Cosmetics also advertises daily on <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" rel="external-noopener">Instagram</a> with verified the account. The <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" rel="external-noopener">Instagram</a> account currently has 21.9 million followers. They share popular beauty influences reviews, sales, new products, and many photos of <a href="https://en.wikipedia.org/wiki/Kylie_Jenner" target="_blank" rel="external-noopener">Kylie Jenner.</a> herself using the products.</p>
+        <p>Kylie also relies heavily on Youtube for marketing her brand and launches. <a href="https://en.wikipedia.org/wiki/Kylie_Jenner" target="_blank" rel="external-noopener">Kylie Jenner's.</a> Youtube channel has over 7.5 million subscribers. She'll often record a 'get ready with me' to promote her upcoming launches.</p>
+        <p> While Jenner, or members of her family, often serve as the face of Kylie Cosmetics, the pair of lips that advertise the Lip Kits themselves belongs to beauty and lifestyle blogger, Ashley Rosales.</p>
+      </div>
+</section>
+
+<Section id="collabs">
+  <h6 class="colabs"><strong>Collaborations and collections</strong></h6>
+    <div class="collabs">
+      <p>Jenner has collaborated with several other celebrities on collections for Kylie Cosmetics. Some notable collaborations include <a href="https://en.wikipedia.org/wiki/Kim_Kardashian" target="_blank" rel="external-noopener">Kim Kardashian-West,</a> <a href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian" target="_blank" rel="external-noopener">Khloe Kardashian,</a> and <a href="https://en.wikipedia.org/wiki/Kourtney_Kardashian" target="_blank" rel="external-noopener">Kourtney Kardashian.</a> In November 2016, Kylie announced the very first Kylie Cosmetics collaboration called Koko X Kylie, where she teamed up with her half-sister,<a href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian" target="_blank" rel="external-noopener"> Khloe Kardashian.</a>
+      </p>
+      <p>In April 2017, Jenner announced her collaboration with her half-sister, <a href="https://en.wikipedia.org/wiki/Kim_Kardashian" target="_blank" rel="external-noopener">Kim Kardashian-West,</a> called KKW X Kylie. Kylie Cosmetics partnered with <a href="https://en.wikipedia.org/wiki/Kim_Kardashian" target="_blank" rel="external-noopener">Kim Kardashian-West</a> soon after the KKW release.</p>
+      <p>In May 2017, it was announced Koko X Kylie would be returning for a Part 2 of the half-sisters’ collaboration.</p>
+      <p>In a month long pop-up event in November 2017, seven TopShop stores across the US sold Kylie Cosmetics products. In November 2018, Kylie Cosmetics began selling their products at <a href="https://en.wikipedia.org/wiki/Ulta_Beauty" target="_blank" rel="external-noopener">Ulta.</a> Many attribute the brand's success to Jenner's cosmetically altered lips</p>
+      <p>In April 2018, Jenner announced her Kylie Cosmetics collaboration with her oldest half-sister, <a href="https://en.wikipedia.org/wiki/Kourtney_Kardashian" target="_blank" rel="external-noopener">Kourtney Kardashian,</a> called Kourt X Kylie.</p>
+      <p>On May 9, 2018, Kylie and <a href="https://en.wikipedia.org/wiki/Kris_Jenner" target="_blank" rel="external-noopener">Kris Jenner </a> announced their collaboration called the Kris Kollection via Kylie's personal instagram. The Mini Lip Set in the Kris Kollection, which includes eight mini liquid lipsticks, is aptly named “Momager”, a title in which <a href="https://en.wikipedia.org/wiki/Kris_Jenner" target="_blank" rel="external-noopener">Kris Jenner </a> has personally taken on, and attempted to trademark, in recent years. In addition to the "Momager" Lip Kit, the Kris Kollection includes lip glosses and a four pan pressed powder highlight/blush palette, which has created a lot of controversy online with both good and bad reviews.The collection was released just in time for Mother's Day.</p>
+      <p>On September 14, 2018, Kylie announced her new launch the Jordyn X Kylie collection, in celebration of her long term friendship Jordyn Woods.</p>
+      <p>On June 9, 2019, Kylie announced her collaboration with her half sister <a href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian" target="_blank" rel="external-noopener">Khloe Kardashian</a> for the third time.</p>
+      <p>In 2019, Kylie announced her collaboration with Oliver Rousteing the creative director for Balmain in the Kylie X Balmain collection. Which launched on September 27 of that year.</p>
+    </div>
+  </section>
 
 
+  <p>Content from <a href="https://en.wikipedia.org/wiki/Kylie_Cosmetics" target="_blank" rel="external-noopener">Kylie Cosmetics</a>. </p>
 
-<p><a href="#menu">Back to menu</a></p>
 
-
+  <nav id="back-to-top">
+    <ul>
+      <li><strong><a href="#top">Back to Top</a></strong></li>
+      </ul>
+    </nav>
 
 
 </body>
